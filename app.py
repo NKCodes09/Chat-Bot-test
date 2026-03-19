@@ -4,7 +4,7 @@ from functools import wraps
 
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify, flash
 from werkzeug.security import generate_password_hash, check_password_hash
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 from google import genai
 from google.genai.errors import ClientError
